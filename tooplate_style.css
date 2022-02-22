@@ -1,0 +1,190 @@
+/* :::::::::::::: */
+ul {
+	list-style-type: none;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: 'Jost', sans-serif;
+	font-size: large;
+
+}
+
+li a {
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 15px 15px;
+
+}
+
+li a:hover:not(.active) {
+	background-color: red;
+	color: black;
+}
+
+.active {
+	background-color: rgb(95, 105, 160);
+}
+
+li {
+	float: left;
+}
+
+/* MENUBAR  */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: burlywood;
+}
+
+p {
+	color: #fff;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+img {
+	border: #fff 4px solid;
+}
+
+.image_fr {
+	float: right;
+	margin: 3px 0 5px 20px;
+	height: 300px;
+}
+
+h2 {
+	font-size: 28px;
+	margin: 0 0 25px;
+	padding: 3px 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #fff;
+
+}
+
+#tooplate_main {
+	margin-top: -70px;
+	padding: 100px 0 200px;
+}
+
+.kwicks {
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.kwicks li {
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	cursor: pointer;
+	background: url(./images/slider_bg.png) no-repeat left
+}
+
+#tooplate_content li {
+	float: left;
+	position: relative;
+	width: 188px;
+	height: 478px;
+}
+
+.kwicks li.active {
+	background: url(./images/slider_bg_hover.png) no-repeat left
+}
+
+.kwicks li span.slideno {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	width: 36px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#tooplate_content #home span.slideno {
+	background-image: url(./images/one.png)
+}
+
+#tooplate_content #about span.slideno {
+	background-image: url(./images/two.png)
+}
+
+#tooplate_content #social span.slideno {
+	background-image: url(./images/three.png)
+}
+
+#tooplate_content #portfolio span.slideno {
+	background-image: url(./images/four.png)
+}
+
+#tooplate_content #contact span.slideno {
+	background-image: url(./images/five.png)
+}
+
+#tooplate_content li .inner {
+	width: 570px;
+	padding: 40px 40px 40px 100px;
+	overflow: hidden;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	margin-left: 195px;
+  }
+  
+  #img-gallery{
+	  margin-top: -145px;
+  }
+  /* Create four equal columns that sits next to each other */
+  .column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+	.column {
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column {
+	  flex: 100%;
+	  max-width: 100%;
+	}
+  }
+
+  .navigation {
+	margin-right: 30px;
+	margin-top: 70px;
+	float: right;
+  }
+  
+  /*UP ARROW NAVIGATION*/
+  
+  .footer {
+	text-align: center;
+	padding-left: 5px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-top: 155px;
+	background-color: rgb(180, 145, 79);
+  }
+  /* FOOTER  */
